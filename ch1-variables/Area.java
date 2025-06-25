@@ -31,6 +31,8 @@ public class Area
      float l=sc.nextFloat();
      float b=sc.nextFloat();
      arearec(l, b);
+
+     sc.close();
      
         
     }

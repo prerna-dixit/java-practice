@@ -14,7 +14,7 @@ public class Avg
         int b=sc.nextInt();
         int c=sc.nextInt();
         avg(a, b, c);
-
+sc.close();
     
 }
     

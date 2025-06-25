@@ -16,6 +16,7 @@ public class SumProd
     int b=sc.nextInt();
     sum(a, b);
     prod(a, b);
+    sc.close();
     }
     
 }
