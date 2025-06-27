@@ -21,8 +21,8 @@ This folder includes beginner to intermediate-level Java programs that focus on 
 
 ## 📂 List of Programs
 
-| 56 | `ArrayBasics.java` | Create, input, update elements & print average and length |
-| 57 | `ArrayUpdate.java` | Updating array elements via function |
+| 56 | `arraybasics.java` | Create, input, update elements & print average and length |
+| 57 | `arrayupdate.java` | Updating array elements via function |
 | 58 | `LinearSearch.java` | Linear search for an element in array |
 | 59 | `BinarySearch.java` | Binary search implementation |
 | 60 | `LargestSmallest.java` | Find the largest and smallest element |
