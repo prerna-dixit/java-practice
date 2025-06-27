@@ -22,14 +22,15 @@ This folder includes beginner to intermediate-level Java programs that focus on 
 ## 📂 List of Programs
 
 | 56 | `arraybasics.java` | Create, input, update elements & print average and length |
-| 57 | `arrayupdate.java` | Updating array elements via function |
-| 58 | `LinearSearch.java` | Linear search for an element in array |
-| 59 | `BinarySearch.java` | Binary search implementation |
-| 60 | `LargestSmallest.java` | Find the largest and smallest element |
-| 61 | `ReverseArray.java` | Reverse an array in-place |
-| 62 | `ArrayPairs.java` | Print all unique pairs from array |
-| 63 | `MenuArray.java` | Simulates a simple restaurant menu using arrays |
-| 64 | `maxsumbruteforce.java` | Brute-force approach for maximum subarray sum |
+<br>
+| 57 | `arrayupdate.java` | Updating array elements via function |<br>
+| 58 | `LinearSearch.java` | Linear search for an element in array |<br>
+| 59 | `BinarySearch.java` | Binary search implementation |<br>
+| 60 | `LargestSmallest.java` | Find the largest and smallest element |<br>
+| 61 | `ReverseArray.java` | Reverse an array in-place |<br>
+| 62 | `ArrayPairs.java` | Print all unique pairs from array |<br>
+| 63 | `MenuArray.java` | Simulates a simple restaurant menu using arrays |<br>
+| 64 | `maxsumbruteforce.java` | Brute-force approach for maximum subarray sum |<br>
 
 ---
 
