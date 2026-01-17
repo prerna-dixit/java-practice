@@ -22,11 +22,15 @@ public class GuessingGame {
             break;
         }
             
-        else if(num<1||num>100)
+        else if(num<n)
         {
-            System.out.println("Please enter a number between 1 and 100");
+            System.out.println("Guess a larger number");
         }
-        else if (num==n)
+        else if(num>n)
+        {
+            System.out.println("Guess a smaller number");
+        }
+        else if(num==n)
         {
             System.out.println("Yay! You guessed the number correctly! Its: " + n);
         }
