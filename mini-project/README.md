@@ -24,4 +24,20 @@ The program generates a random number between 1 and 100, and the user tries to g
 3. Run the program
    java GuessingGame.java
 
+## 💡 What I Learned
 
+Using Math.random() for number generation
+
+Handling user input and validation
+
+Implementing loops and conditional logic
+
+Writing clean and readable Java code
+
+## 📈 Future Improvements
+
+Add hints like “Too High” / “Too Low”
+
+Track number of attempts
+
+Add replay option after winning
