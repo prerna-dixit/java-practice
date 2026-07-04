@@ -1,5 +1,15 @@
 import java.util.*;
+
+/* performs basic operations on 2d array such as:
+    taking input
+    printing the matrix
+    searching an element
+    finding largest/smallest element in the matrix
+ */
+
 public class basic {
+
+    //taking input
 
     public static void input(int matrix[][])
     {
@@ -18,6 +28,8 @@ public class basic {
 
     }
 
+//printing the matrix
+
     public static void print(int matrix[][]) {
         int n=matrix.length;
         int m=matrix[0].length;
@@ -35,6 +47,7 @@ public class basic {
         
     }
 
+    //searching for an element in the matrix
 
     public static boolean searching(int matrix[][], int key) {
         int n=matrix.length;
@@ -45,7 +58,7 @@ public class basic {
             for (int j = 0; j < m; j++) {
                 if(matrix[i][j]==key)
                 {
-                    System.out.println("found at position: (0th indexing)" + i+ " , " + j);
+                    System.out.println("found at position: (0th indexing): " + i+ " , " + j);
                     return true;
                 }
                 
@@ -54,6 +67,28 @@ public class basic {
         }
         return false;
         
+    }
+
+
+    //largest/smallest element in matrix
+
+    public static void LargestAndSmallest(int matrix[][])
+    {
+        int n=matrix.length;
+        int m=matrix[0].length;
+        int largest=Integer.MIN_VALUE;
+        int smallest=Integer.MAX_VALUE;
+        for (int i = 0; i < n; i++) {
+            for(int j=0; j<m; j++)
+            {
+                largest=Math.max(largest, matrix[i][j]);
+                smallest=Math.min(smallest, matrix[i][j]);
+
+            }
+            
+        }
+        System.out.println("Largest element in matrix: " + largest);
+        System.out.println("smallest element in matrix: " + smallest);
     }
     
     public static void main(String[] args) {
@@ -70,6 +105,8 @@ public class basic {
         System.out.println("enter the element to be found: ");
         int key=sc.nextInt();
         searching(matrix, key);
+
+        LargestAndSmallest(matrix);
 
 
     }
