@@ -1,8 +1,8 @@
 public class exponent {
     public static int exp(int x, int n)
     {
-        if(n==1)
-        {return x;}
+        if(n==0)
+        {return 1;}
         return x*exp(x, n-1);
     }
     public static void main(String[] args) {
